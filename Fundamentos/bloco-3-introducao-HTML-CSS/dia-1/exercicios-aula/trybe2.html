@@ -1,0 +1,33 @@
+<!DOCTYPE html> <!--Ao iniciar um arquivo HTML, deve sempre indicar.-->
+<html lang="pt-br"> <!--É a raiz de toda a página. Tudo deve estar contida dentro dela. O pt-br define qual linguagem a nossa página utiliza(Português-Brasil)-->
+  <head> <!--Ele não apresenta as informações visíveis da página, e sim contém as configurações da página. Pode apresentar os "caminhos" para o nosso CSS ou para algum Script.-->
+    <meta charset="UTF-8"> <!--Define o conjunto de caracteres da página.-->
+    <title>Aprendendo HTML</title> <!--Define o título da página (Aquele que apresenta nas abas do navegador.)-->
+  </head>
+    <body> <!--É onde irá conter todas as nossas tags, visíveis.-->
+        
+        <h1>Aprendizados</h1>
+        <h2><em>Meu aprendizado começa aqui e agora!</em></h2> <!--A tag (<em>) coloca o texto estilo "itálico".-->
+        <p>Hoje eu começo minha jornada na Trybe!<br> <!--A tag (<br>) serve para fazer uma quebra de linha no texto. "Não necessita fechar a tag".-->
+        <strong>Com muito esforço e apoio</strong>vou me tornar uma pessoa desenvolvedora muito capaz!</p> <!--A Tag (<strong>) coloca ênfase em uma frase.-->
+        
+        <!--Inicando uma lista-->
+        <ul> <!--Define uma lista não ordenada. A tag (<ol>) ordena de forma numérica de acordo com a ordem na lista. Podemos fazer um hyperlink dentro de uma tag na própria página.-->
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#html_semantico">HTML semântico</a></li>
+        <li><a href="#javascript">JavaScript</a></li>
+        <li><a href="#DOM">DOM</a></li>
+        <li><a href="#posicionamento_css">Posicionamento em CSS</a></li>
+        </ul>
+
+        <!--O (id) define uma variável para usarmos de referência.-->
+        <p id="css">CSS é a sigla para o termo em inglês Cascading Style Sheets que, traduzido para o português, significa Folha de Estilo em Cascatas. O CSS é fácil de aprender e entender e é facilmente utilizado com as linguagens de marcação HTML ou XHTML. </p>
+        <p id="html_semantico">Atualmente o papel da HTML não é apenas estruturar documentos para a web, mas também descrever o significado do conteúdo presente nesses documentos por meio de tags semânticas. O HTML semântico tem como objetivo descrever o significado do conteúdo presente em documentos HTML, tornando-o mais claro tanto para programadores quanto para browsers e outras engines que processam essa informação.</p>
+        <p id="javascript">O JavaScript é uma das mais importantes tecnologias voltadas para o front-end e, unindo-se ao trio HTML, CSS e PHP, formam um grupo de linguagens que abrangem praticamente todas as exigências do desenvolvimento de uma página completa, dinâmica e com boa performance.</p>
+        <p id="DOM">Ele é utilizado pelo navegador para representar a sua página Web. É ele que fornece uma representação estruturada do documento como se fosse uma espécie de árvore com galhos, definindo métodos para que possam ser alterados estrutura, estilo e conteúdo do documento.</p>
+        <p id="posicionamento_css">No CSS, o CSS position é uma propriedade utilizada para determinar o posicionamento dos elementos na página. Ela é usada em conjunto com propriedades auxiliares, entre elas: bottom, top, left e right, que ajudam a definir de que forma o elemento será posicionado na tela.</p>
+
+        <a href="https://www.betrybe.com/formacao-desenvolvimento-web" target="_blank">Currículo</a> <!--A tag <a> nos permite fazer um hyperlink. O (href) define um link externo. O (target) abre uma nova abra para o link não carregar na mesma página. -->
+    
+        </body>
+</html>
