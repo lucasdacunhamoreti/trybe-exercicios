@@ -9,3 +9,11 @@ h1{
 body{
     background-color: rgb(233, 233, 118);
 }
+
+#cidade{
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    color: green;
+
+}
