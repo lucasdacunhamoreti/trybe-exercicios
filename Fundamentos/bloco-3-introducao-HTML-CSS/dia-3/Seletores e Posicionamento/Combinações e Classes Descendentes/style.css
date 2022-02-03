@@ -1,0 +1,38 @@
+ol{
+    background-color: yellow;
+}
+
+ol li:nth-child(even){
+    color: green;
+}
+
+ol li:nth-child(odd){
+    text-transform: uppercase;
+}
+
+h1, h3{
+    color: red;
+}
+
+.title.italic{
+    font-size: 40px;
+    border: 1px black solid;
+}
+
+li{
+    font-size: 20px;
+}
+
+li.italic2{
+    font-weight: bolder;
+}
+
+ul li:nth-child(-n+3){
+    color: royalblue;
+}
+
+ul li:nth-child(-n+3){
+    background-color: pink;
+}
+
+

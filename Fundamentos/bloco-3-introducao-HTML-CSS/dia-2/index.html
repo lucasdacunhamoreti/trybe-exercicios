@@ -1,44 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-        <meta charset="UTF-8">
-        <title>Portfólio</title>
-        <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <title>Portfólio Lucas da Cunha Moreti</title>
 
-  </head>
-
-    <body>
-
-      <h3>Índice</h3>
-      <ol>
-        <li><a href="#conheca-me">Conheça-me</a></li> 
-        <li><a href="#habilidades">Minha habilidades</a></li>
-        <li><a href="#perfil">Meu perfil</a></li>
-      </ol>
-
-      <h1>Lucas da Cunha Moreti</h1>
-      <img src="foto_perfil.jpeg" width="300px">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@480&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
     
-      <h3>Olá!Este sou <a href="foto_perfil.jpeg">eu</a>. Como você pode ver eu estou muito feliz em estar realizando este exercício. Me sinto muito preparado!!!</h3>
-      <p id="conheca-me">Tenho 20 anos, chegando aos 21.</p>
-      <p id="cidade">Eu moro na cidade de Cambará no estado do Paraná.</p>
-      <strong>Eu amo a minha cidade</strong> mas futuramente pretendo ir para uma <em>maior</em>.<br>Sou apaixonado por tecnologia e pela mulher da minha vida, que sempre me apoia em tudo o que faço.</p>
+    <style>
+      h1 {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: rgb(250, 250, 244);
+        border: solid;
+        padding: 15px;
+        margin: 30px;
+        width: 500px;
+        border-radius: 50px;
+        display: inline-block;
+      }
+      body {
+        background-color: #9f1cd3;
+        text-align: center
+      }
+      #minhafoto {
+        border: solid;
+        border-color: white;
+        border-radius: 200px;        
+        margin: 30px;
+        display: inline-block;
+      }
+      p, ul, a {
+        font-family: 'Roboto Mono', sans-serif;
+        color: black;
+      }
+      h3 {
+        background-color: rgba(255, 255, 255, 0.856);
+        border: solid;
+        padding: 15px;
+        margin: 30px;
+        width: 500px;
+        border-radius: 50px;
+        display: inline-block;
+        font-family: 'Ubuntu', sans-serif;
+      }
+      strong {
+        text-decoration: underline;
+      }
+      ul {
+        display: inline-block
+      }
+    </style>
+  </head>
+  <body>
+    <h4 id=links-internos>
+      <a style="text-decoration: none" href="#inicio">Início</a> | 
+      <a href="#sobremim" style="text-decoration: none">Sobre Mim</a> | 
+      <a href="#habilidades" style="text-decoration: none">Habilidades</a> | 
+      <a href="#objetivos" style="text-decoration: none">Objetivos</a> | 
+      <a href="#blog" style="text-decoration: none">Blog Favorito</a> | 
+      <a href="#minhafoto" style="text-decoration: none">Minha foto</a>
+    </h4>
+    <h1 id="inicio">Lucas da Cunha Moreti</h1>
+    <br>
+    <img src="foto_perfil.jpeg" width="300px" alt="minha-foto" id="minhafoto">
+    <br>
+    <h3>Sobre mim...</h3>
+      <p id="sobremim">
+        Olá, eu sou <strong>Lucas da Cunha Moreti</strong>, tenho 20 anos e moro em <strong>Cambará-PR.</strong><br>
+        Sou brasileiro, no meu tempo livre meus hobbies favoritos ouvir música e passar o tempo com a minha namorada.<br>
+        Atualmente sou <strong>estudante de desenvolvimento web na Trybe.</strong><br>
+        Caso queira saber mais sobre mim é só acessar meu linkedin clicando <a href="https://www.linkedin.com/in/lucas-da-cunha-moreti-75a4a4172/" target="_blank">Aqui!</a>
+      </p>
       <br>
-
-      <h4 id="habilidades">Minhas principais habilidades:</h4>
-      <ul>
-        <li class="habilidade1">Persistente</li>
-        <li class="habilidade2">Flexível</li>
-        <li class="habilidade3">Colaborador</li>
-        <li class="habilidade4">Criativo</li>
-      </ul>
+      <h3>Habilidades</h3>
       <br>
-
-      <h4 id="perfil">Acesse o meu perfil no <a href="https://www.linkedin.com/in/lucas-da-cunha-moreti-75a4a4172/" target="_blank">LinkedIn</a> para me conhecer melhor.</h4>
-      <br>
-
-      
-
-    </body>
-
+        <ul id="habilidades">
+          <li>Comunicação</li>
+          <li><strong>Trabalho em equipe</strong></li>
+          <li>Humildade</li>
+          <li>Cauteloso</li>
+          <li>Proatividade</li>
+          <li>Empatia</li>
+        </ul>
+    <br>
+    <h3 id="objetivos">Objetivos</h3>
+    <br>
+      <p>
+        Atualmente meu objetivo principal é me formar na <strong>Trybe</strong> e me tornar um Dev!<br>
+        E futuramente pretendo viajar o mundo e conhecer outros países. 
+      </p>
+    <br>  
+    <h3 id="blog">Blog favorito</h3>
+    <br>
+    <p>
+      Não tenho um blog favorito em si, gosto mais das redes sociais mas se tem um lugar<br>
+      que eu gosto de acessar para ver noticias sobre games e tecnologia em geral é o <a href="https://www.tecmundo.com.br/" target="_blank">Tecmundo!</a>
+    </p>
+    <br>
+  </body>
 </html>

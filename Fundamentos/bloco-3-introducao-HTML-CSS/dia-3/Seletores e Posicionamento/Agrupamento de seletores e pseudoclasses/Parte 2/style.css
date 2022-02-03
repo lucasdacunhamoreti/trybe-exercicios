@@ -1,0 +1,33 @@
+div:hover{
+    border-style:solid;
+}
+
+#cor-primaria{
+    border-color: blue;
+    color:blue;
+    font-style: italic;
+}
+
+#cor-secundaria{
+    border-color: red;
+    color:red;
+}
+
+#cor-complementar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: green;
+    color: green;
+    font-style: italic;
+}
+
+#cor-escura{
+    border-color: purple; 
+    color: purple;
+}
+
+#cor-clara{
+    border-color: yellowgreen;
+    color: yellowgreen;
+    font-style: italic;
+}
