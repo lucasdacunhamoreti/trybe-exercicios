@@ -8,19 +8,19 @@ const peca = "rei";
 
 switch(peca.toLowerCase()){
     case "bispo":
-        console.log(peca+ " -> Diagonal");
+        console.log("Diagonal");
         break;
     
     case "peao":
-        console.log(peca+ " -> Vertical");
+        console.log("Vertical");
          break;
 
     case "torre":
-        console.log(peca+ " -> Linha reta horizontalmente e verticalmente");
+        console.log("Linha reta horizontalmente e verticalmente");
         break;
     
     case "cavalo":
-        console.log(peca+ " ->  Duas casas horizontalmente ou verticalmente e então uma casa a mais em uma ângulo reto");
+        console.log("Duas casas horizontalmente ou verticalmente e então uma casa a mais em uma ângulo reto");
         break;
 
     case "rainha":
