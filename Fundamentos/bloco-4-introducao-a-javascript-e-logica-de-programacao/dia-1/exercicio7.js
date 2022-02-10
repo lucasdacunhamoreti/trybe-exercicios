@@ -1,23 +1,23 @@
-const nota = 49;
+const nota = 80;
 
-if(nota >= 90 && nota <=100){
-    console.log("A");
+if(nota >= 90 && nota <= 100){
+  console.log('A');
 }
 else if(nota >= 80 && nota < 90){
-    console.log("B");
+  console.log('B');
 }
 else if(nota >= 70 && nota < 80){
-    console.log("C");
+  console.log('C');
 }
 else if(nota >= 60 && nota < 70){
-    console.log("D");
+  console.log('D');
 }
 else if(nota >= 50 && nota < 60){
-    console.log("E");
+  console.log('E');
 }
 else if(nota >= 0 && nota < 50){
-    console.log("F");
+  console.log('F');
 }
 else if(nota < 0 || nota > 100){
-    console.log("ERRO. Coloque uma nota válida entre 0 a 100");
+  console.log('Nota menor que zero ou maior que 100');
 }

@@ -1,40 +1,30 @@
-//Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
-//Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
-//Como dica, você pode pesquisar uma função que faz uma string ficar com todas as letras minúsculas (lower case) .
-//Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
-//Exemplo: bishop (bispo) -> diagonals (diagonais)
+const peca = 'rei';
 
-const peca = "rei";
+switch (peca.toLowerCase()) {
+  case 'bispo':
+    console.log('Move-se na diagonal, quantas casas quiser.');
+    break;
 
-switch(peca.toLowerCase()){
-    case "bispo":
-        console.log("Diagonal");
-        break;
-    
-    case "peao":
-        console.log("Vertical");
-         break;
+  case 'rei':
+    console.log('Pode mover-se em qualquer direção, porém apenas uma casa por vez, como indicam os pontos vermelhos na figura abaixo.');
+    break;
 
-    case "torre":
-        console.log("Linha reta horizontalmente e verticalmente");
-        break;
-    
-    case "cavalo":
-        console.log("Duas casas horizontalmente ou verticalmente e então uma casa a mais em uma ângulo reto");
-        break;
+  case 'dama':
+    console.log('Assim como o Rei, pode mover-se em qualquer direção (vertical, horizontal e diagonal), porém quantas casas quiser, desde que estejam livres.');
+    break;
 
-    case "rainha":
-        console.log(peca+ " ->  Verticalmente, horizontalmente ou diagonalmente");
-        break;
+  case 'torre':
+    console.log('Move-se em linha reta, tanto na vertical quanto na horizontal, quantas casas quiser.');
 
-    case "rei":
-        console.log(peca+ " ->  Horizontalmente, verticalmente ou diagonalmente");
-        break;
+  case 'cavalo':
+    console.log('Ele pode andar duas casas na horizontal e uma na vertical, ou duas na vertical e uma na horizontal, uma na horizontal e duas na vertical, e assim por diante.');
+    break;
 
-    case "rei":
-        console.log(peca+ " ->  Horizontalmente, verticalmente ou diagonalmente");
-        break;
+  case 'peao':
+    console.log('Move-se sempre uma casa para frente, exceto no primeiro movimento, quando pode mover-se duas casas.');
+    break;
 
-    default:
-        console.log("Essa peça é inválida!")
+  default:
+    console.log('Peça inválida');
+    break;
 }

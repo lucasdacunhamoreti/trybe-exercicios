@@ -1,15 +1,16 @@
-//Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
+const a = 2;
+const b = 2;
+const c = 2;
 
-const num1 = 62;
-const num2 = 1;
-const num3 = 54;
-
-if(num1 > num2 && num1 > num3){
-    console.log(num1);
+if(a>b && a>c){
+  console.log(a);
 }
-else if(num2 > num1 && num2 > num3){
-    console.log(num2);
+else if(b>a && b>c){
+  console.log(b);
+}
+else if (c>a && c>b){
+  console.log(c);
 }
 else{
-    console.log(num3);
+  console.log("Os três números são iguais");
 }
