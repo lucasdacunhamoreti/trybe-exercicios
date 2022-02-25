@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(219, 219, 219);
+}
+
+.container{
+  margin-bottom: 20px;
+}
+
+#foto{
+  
+  width: 130px;
+}
+
+#header{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+#resposta{
+  padding-top: 30px;
+}
