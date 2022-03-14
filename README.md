@@ -59,7 +59,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ ] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [ ] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _[Projeto - JavaScript Testes Unitários]()_
+- [ ] 7-4: _<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-js-unit-tests">Projeto - JavaScript Testes Unitários</a>_
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
