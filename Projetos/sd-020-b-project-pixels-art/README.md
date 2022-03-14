@@ -13,6 +13,6 @@
 <h3>Ferramentas utilizadas:</h3>
 <li>HTML</li>
 <li>CSS</li>
-<li>Manipulação de elementos com DOM</li>
+<li>JavaScript</li>
 
 ![simplescreenrecorder-2022-03-14_10 52 02](https://user-images.githubusercontent.com/47389261/158189914-5c8f80e9-a250-42d2-b44e-2c0d55f61664.gif)
