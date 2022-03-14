@@ -42,7 +42,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
 - [X] 5-5: _Fundamentos - JavaScript - Projetos_
-- [X] 5-5: _[Projeto - Arte com Pixels]()_
+- [X] 5-5: _(<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-pixels-art">Projeto - Pixels Art</a>)_
 - [X] 5-6: _[Projeto - Lista de tarefas]()_
 
 ##### Bloco 6: HTML & CSS - Forms, Flexbox & Responsivo
