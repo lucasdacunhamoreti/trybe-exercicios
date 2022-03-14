@@ -52,20 +52,20 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 6-3: _CSS Flexbox - Part 1_
 - [X] 6-4: _CSS Flexbox - Part 2_
 - [X] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-trybewarts">Projeto - TrybeWarts</a>_
+- [X] 6-6: _<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-trybewarts">Projeto - TrybeWarts</a>_
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
-- [ ] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
-- [ ] 7-3: _Primeiros passos em Jest_
-- [ ] 7-4: _<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-js-unit-tests">Projeto - JavaScript Testes Unitários</a>_
+- [X] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
+- [X] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
+- [X] 7-3: _Primeiros passos em Jest_
+- [X] 7-4: _<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-js-unit-tests">Projeto - JavaScript Testes Unitários</a>_
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
+- [X] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions
+- [X] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [X] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [ ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
 - [ ] 8-6: _[Projeto - Zoo functions]()_
