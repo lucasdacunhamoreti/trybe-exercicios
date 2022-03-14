@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [X] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [X] 3-4: _HTML Semântico_
-- [X] 3-5: _(<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-lessons-learned">Projeto - Lessons Learned</a>)_
+- [X] 3-5: _<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-lessons-learned">Projeto - Lessons Learned</a>_
 
 ##### Bloco 4: Introdução à JavaScript & Lógica de Programação
 
@@ -42,8 +42,8 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [X] 5-3: _JavaScript - Eventos_
 - [X] 5-4: _JavaScript - Web Storage_
 - [X] 5-5: _Fundamentos - JavaScript - Projetos_
-- [X] 5-5: _(<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-pixels-art">Projeto - Pixels Art</a>)_
-- [X] 5-6: _[Projeto - Lista de tarefas]()_
+- [X] 5-5: _<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-pixels-art">Projeto - Pixels Art</a>_
+- [X] 5-6: _<a href="https://github.com/lucasdacunhamoreti/trybe-exercicios/tree/main/Projetos/sd-020-b-project-todo-list">Projeto - To Do List</a>_
 
 ##### Bloco 6: HTML & CSS - Forms, Flexbox & Responsivo
 
