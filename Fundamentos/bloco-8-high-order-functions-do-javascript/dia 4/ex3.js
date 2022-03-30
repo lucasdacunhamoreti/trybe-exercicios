@@ -61,5 +61,10 @@ const books = [
   },
 ];
 
-const authorBornIn1947 = () => books.find((elemento) => elemento.author.birthYear === 1947).author.name;
-console.log(authorBornIn1947());
+// const dates = books
+//   .map((element)=> element.releaseYear - element.author.birthYear)
+//   .reduce((accumulator, currentValue,index,array)=> { 
+//     return (accumulator + currentValue);
+// });
+
+// console.log(dates);

@@ -61,5 +61,12 @@ const books = [
   },
 ];
 
-const authorBornIn1947 = () => books.find((elemento) => elemento.author.birthYear === 1947).author.name;
-console.log(authorBornIn1947());
+function reduceNames() {
+  const names = books.reduce((acc, book, index, array) => {
+    if (index === array.length - 1) return `${acc} ${book.author.name}.`;
+    return `${acc} ${book.author.name},`;
+  }, '');
+  return names.trim();
+}
+
+console.log(reduceNames());
