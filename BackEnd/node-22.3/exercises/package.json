@@ -1,0 +1,22 @@
+{
+  "name": "node-22.3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "verifyNumber.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chai": "^4.3.6",
+    "sinon": "^14.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "scripts": {
+    "test": "mocha tests/writeText.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

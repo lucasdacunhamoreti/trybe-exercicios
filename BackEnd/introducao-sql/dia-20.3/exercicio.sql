@@ -67,16 +67,27 @@ INSERT INTO Vendas(fornecimento, quantity, order_date)
 
 USE PecasFornecedores;
 
-SELECT * FROM Pecas WHERE name LIKE 'GR%';
+SELECT * FROM Pecas
+WHERE name LIKE 'GR%';
 
-SELECT * FROM Fornecimentos WHERE code = 2 ORDER BY fornecedor;
+SELECT * FROM Fornecimentos
+WHERE code = 2
+ORDER BY fornecedor;
 
-SELECT peca, Preco, fornecedor FROM Fornecimentos WHERE fornecedor LIKE '%n%';
+SELECT peca, Preco, fornecedor FROM Fornecimentos
+WHERE fornecedor LIKE '%n%';
 
-SELECT * FROM Fornecedores WHERE name LIKE '%LTDA' ORDER BY name DESC;
+SELECT * FROM Fornecedores
+WHERE name LIKE '%LTDA'
+ORDER BY name DESC;
 
-SELECT COUNT(*) FROM Fornecedores WHERE code LIKE '%F%';
+SELECT COUNT(*) FROM Fornecedores
+WHERE code LIKE '%F%';
 
-SELECT * FROM Fornecimentos WHERE Preco > 15 AND Preco < 40 ORDER BY Preco;
+SELECT * FROM Fornecimentos
+WHERE Preco > 15 AND Preco < 40
+ORDER BY Preco;
 
-SELECT COUNT(*) FROM Vendas WHERE DATE(order_date) BETWEEN '2018-04-15' AND '2019-07-30';
+SELECT COUNT(*) FROM Vendas
+WHERE DATE(order_date)
+BETWEEN '2018-04-15' AND '2019-07-30';
